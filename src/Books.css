@@ -1,0 +1,71 @@
+
+.books {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    
+}
+
+.book {
+    width: 33.333%;
+    padding: 50px 30px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid rgba(226, 222, 222, 0.349);
+}
+
+.book > * {
+    margin-bottom: 7px;
+}
+
+.book > img {
+    width: 50%;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.book > a {
+    text-decoration: none;
+}
+
+.book > p {
+    text-align: center;
+}
+
+.price-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.book > .price-wrapper > em {
+    color: crimson;
+    font-weight: 200;
+    margin-right: 15px;
+}
+
+.book > .price-wrapper > button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: crimson;
+}
+
+@media all and (max-width: 850px) {
+    .book {
+        width: 50%;
+    }
+}
+@media all and (max-width: 550px) {
+    .book {
+        width: 100%;
+    }
+}
