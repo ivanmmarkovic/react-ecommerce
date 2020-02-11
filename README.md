@@ -6,5 +6,5 @@ Ecommerce app in React
 - npm i
 - npm start
 
-(Take a look here)[https://react-ebooks-shop.stackblitz.io/]
+[Take a look](https://react-ebooks-shop.stackblitz.io/)
 
